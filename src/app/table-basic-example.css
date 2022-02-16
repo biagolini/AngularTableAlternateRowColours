@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  background-color: rgb(25, 141, 14);
+  font-size: 25px;
+}
+
+.mat-row:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+  color: rgb(189, 189, 189);
+}
+
+.mat-row:nth-child(odd) {
+  background-color: rgb(189, 189, 189);
+  color: rgb(255, 255, 255);
+}
+
+.mat-header-cell:nth-child(1),
+.mat-cell:nth-child(1) {
+  font-size: 25px;
+  color: red;
+}
+
+.alternate {
+  font-size: 25px;
+  color: rgb(255, 0, 255);
+  background-color: greenyellow;
+}
+
+/*
+.mat-cell:nth-child():nth-child(odd) {
+  font-size: 25px;
+  color: rgb(255, 0, 255);
+}
+*/
